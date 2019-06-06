@@ -7,9 +7,12 @@
 
 ## output
 
-* Measure processing time
 * Modify order of output rules in fluebt-bit.conf
 * Count lines in input/output.file
+
+### Fwd to another fluentbit/fluentd instance
+
+Run docker with `--net host` and update `Host` in the proper `[OUTPUT]` section.
 
 
 ## Performance
